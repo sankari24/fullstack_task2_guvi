@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(pic4.jfif)no-repeat center center fixed;
+    background-size: cover;
+ 
+}
+
+.box{
+
+    background: #f5f5f5;
+    color:black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+ input[type="text"],
+    input[type="password"] {
+      width: 100%; /* Full width */
+      padding: 10px; /* Padding around the text */
+      margin: 8px 0; /* Margin between input fields */
+      display: inline-block;
+      border: 1px solid #ccc; /* Border color */
+      box-sizing: border-box; /* Box sizing to include padding and border in width */
+      border-radius: 5px; /* Rounded corners */
+    }
+
+
+.button{
+      background-color: #4CAF50; /* Green background color */
+      color: white; /* White text color */
+      padding: 10px 15px; /* Padding around the text */
+      font-size: 16px; /* Font size */
+      border: none; /* No border */
+      border-radius: 5px; /* Rounded corners */
+      cursor: pointer; /* Cursor style on hover */
+    }
+
+.errorBox
+{
+color:red;
+font-size:23px;
+}
+
+
+
+
+.user{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -30px;
+    left: calc(50% - 50px);
+}

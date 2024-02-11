@@ -1,0 +1,21 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styleregister.css">
+  <script type="text/javascript" src="sample.js"></script>
+  <title>register page</title>
+</head>
+<body>
+  <h3><center>WELCOME TO REGISTRATION</center></h3>
+  <div class="box">
+    <img src="user.png" class="user">
+    <form name="myform2" action="register.php" method="POST" onsubmit="return vfun1()">
+      <p>Username    <input type="text" name="username"></p>
+      <p>Email       <input type="text" name="email"></p>
+      <p>Password    <input type="text" name="password"></p>
+      <p>Retype Password    <input type="password" name="conformpassword"></p>
+      <div id="errorBox" class="errorBox"></div>
+      <button class="button submit" type="submit">Register</button>
+    </form>
+  </div>
+</body>
+</html>
